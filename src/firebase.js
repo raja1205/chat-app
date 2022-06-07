@@ -1,16 +1,11 @@
-import firebase from 'firebase'
+import firebase from 'firebase';
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyCzZKemybvqIW9Z2wAVJbsbNRAygHr-U_0",
-    authDomain: "auth-demo-4a234.firebaseapp.com",
-    projectId: "auth-demo-4a234",
-    storageBucket: "auth-demo-4a234.appspot.com",
-    messagingSenderId: "145375543988",
-    appId: "1:145375543988:web:7ae7213e46fce426e54de1"
+process.env.API_KEY
 })
 
-const db = firebaseApp.firestore()
+const db = firebaseApp.firestore();
 
-const auth = firebase.auth()
+const auth = firebase.auth();
 
-export { db, auth }
+export { db, auth };

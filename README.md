@@ -1,5 +1,6 @@
 # Chat Application
 > A web based chat application using Firebase Realtime Database.
+> 
 > Live demo: https://reactjs-chatting-app.firebaseapp.com/
 
 ## Technologies Used
